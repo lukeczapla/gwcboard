@@ -20,7 +20,7 @@ import java.io.IOException;
  */
 @SpringBootApplication
 @EnableAutoConfiguration
-@ComponentScan("frisch.java")
+@ComponentScan("org.frisch.board")
 @Import({WebSecurityConfig.class, SwaggerConfig.class})
 public class AppMain {
 
